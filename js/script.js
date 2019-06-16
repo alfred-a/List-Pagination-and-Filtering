@@ -53,8 +53,8 @@ const appendPageLinks = list => {
       }
       link.className = "active";
     }
-    showPage(list, pageNumber);
+    showPage(lists, pageNumber);
   });
 };
-showPage(list, pageNumber);
+
 appendPageLinks(lists);
