@@ -56,5 +56,5 @@ const appendPageLinks = list => {
     showPage(list, pageNumber);
   });
 };
-
+showPage(list, pageNumber);
 appendPageLinks(lists);
