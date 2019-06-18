@@ -58,3 +58,4 @@ const appendPageLinks = list => {
 };
 
 appendPageLinks(lists);
+showPage(lists, 1);
